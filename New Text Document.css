@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(9, 27, 109);
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    font-size: 30px;
+    word-spacing: 1.6px;
+    font-style:inherit;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/WhatsApp\ Image\ 2022-05-08\ at\ 6.30.03\ PM.jpeg);
+    background-size: contain;
+    padding: 0px;
+    margin: 0px;
+    /* display: flex; */
+
+}
+
+header{
+    background-color:black;
+    width: 100%;
+    position:fixed;
+    z-index: 10000;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    /* padding:  20px 170px; */
+    position: relative;
+}
+
+.navigation a:hover{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    text-decoration: none;
+    color: wheat;
+    text-transform: uppercase;
+    font-weight: 850;
+    font-size: 2.0em;
+}
+.navigation a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 1.0em;
+    font-weight: 500;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+.navigation a:hover{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: brown;
+    font-weight:500 ;
+    font-size:1.3em;
+}
+
+.part1{
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+
+}
+.part1::after {
+    content: "";
+    clear: both;
+ display: table;}
+ img[src="./images/lion1.jpeg"]{ 
+
+     float: right;
+     position:static;
+ }
+
+
+.part1 p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 46px;
+    color: rgba(27, 39, 145, 0.788);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande';
+    letter-spacing: 1.5px;
+    line-height: 50px;
+   display: inline-block;
+   height: 400px;
+   width: 1000px;
+   background-color: rgba(0, 0, 0, 0);
+   position: absolute;
+   top: auto;
+   overflow: hidden;
+
+}
+
+h1{
+    color: rgb(0, 81, 255);
+    font-size: 50px;
+    text-align:center;
+    font-style:oblique;
+    font-weight:bolder;
+}
+/* 
+.photo_pages{
+    border: 10px violet solid;
+    width: 900px;
+    height: 60%;
+    background-color: rgba(11, 247, 255, 0.952);
+    overflow: hidden;
+    /* position: relative; */
+/*   
+     display: inline-block;
+
+img,p,
+{
+    display: inline-block;
+}
+.part1 .{
+    border: 0px rgb(243, 1, 1) solid;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(255, 0, 0);
+  /* background-image:url(./images/lion.jpeg); */
+    /* display: inline-block;
+    overflow:hidden;  */
+
+ .part2{ 
+    border: 10px rgba(255, 47, 255, 0) solid;
+    height:60%;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-size: contain;
+    background-repeat: repeat;
+    display: inline-block;
+    overflow: hidden;
+}
+.part2 {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.part2 p {
+      display: inline-block;
+      text-shadow: 2px 2px 4px #000000;
+      transition: .7s ease;
+      
+    }
+.part2 img:hover{
+    color: rgb(224, 4, 4);
+        background-color: rgba(255, 255, 255, 0.712);
+        background-size: 40px;
+        transition-property: calc(1.1);
+        size: 10px;
+
+        
+}
+     
+  
+/* .partt2{
+    border: 0px rgb(255, 249, 255) solid;
+    height: 100%;
+    width:300px;
+    background-color: rgb(2, 2, 2);
+    display: inline-block;
+    overflow: hidden;  */
+
+/* .contet{
+    width: 100%;
+    height:30%;
+    background-color: blue;
+    overflow: hidden; */
+    
